@@ -1,0 +1,32 @@
+.add {
+  background-color: aqua;
+  border: 3px solid red;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.remove {
+  background-color: red;
+  border: 3px solid aqua;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.input-text {
+  width: 100px;
+  height: 50px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+.input-text:hover {
+  width: 300px;
+  height: 100px;
+  font-size: 50px;
+}
+div {
+  width: 500px;
+  height: 600px;
+  border: 1px solid #000;
+  padding: 10px;
+  overflow-y: scroll;
+}
